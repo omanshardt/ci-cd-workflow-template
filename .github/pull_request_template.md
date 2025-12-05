@@ -10,5 +10,3 @@
 
 ## Tests
 <!-- Was wurde getestet? -->
-
-:-)
