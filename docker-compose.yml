@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: laravel_apache_ssl_recipes:latest
+    container_name: con_laravel_apache_ssl_recipes
+    working_dir: /var/www/html
+    volumes:
+      - ./webroot:/var/www/html
+    ports:
+      - "8080:80"
+      - "8443:443"
