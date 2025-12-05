@@ -1,2 +1,2 @@
 # ci-cd-workflow-template
-This repository is for evaluation of ci, cd features in github
+This repository is for evaluation ci, cd features in github
